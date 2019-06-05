@@ -85,8 +85,8 @@ h1 {
     width: 2.5rem;
     height: 3rem;
     margin-left: 11rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
  
 .app_store, .google_play { /*текст кнопок*/
@@ -95,6 +95,8 @@ h1 {
     font-size: 1rem;
     padding-left: 1rem;
     margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
  
 .app, .play { /*вторая строчка кнопки*/
