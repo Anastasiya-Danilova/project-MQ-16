@@ -262,6 +262,7 @@ footer {
     width: 35.6rem;
     font-size: 4rem;
     font-weight: bold;
+    text-align: center;
     color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -272,6 +273,7 @@ footer {
     display: block;
     width: 35.6rem;
     font-size: 1.75rem;
+    text-align: center;
     color: #9999cc;
     margin-left: auto;
     margin-right: auto;
