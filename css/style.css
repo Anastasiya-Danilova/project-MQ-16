@@ -753,20 +753,20 @@ footer {
    }
   
   .be-active {/*фон секции be active  */
-      background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/be-active_1024.jpg?raw=true);
+      background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/be-active_960.jpg?raw=true);
      width: 50%;
      height: 730px;
     } 
   
   .contact {/*фон секции find contact  */
-      background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/find-contact_1024.jpg?raw=true);
+      background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/find-contact_960.jpg?raw=true);
       width: 50%;
       height: 730px;
       margin-left: 50%
     }
   
   .work-it {/*фон секции work it  */
-      background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/work-it_1024.jpg?raw=true);
+      background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/work-it_960.jpg?raw=true);
       width: 50%;
       height: 730px;
     }
