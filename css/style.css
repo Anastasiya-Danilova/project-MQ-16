@@ -150,6 +150,7 @@ h1 {
  
 .connect { /* стили текста в <li> */
     width: 100%;
+    max-width: 44rem;
     font-size: 2rem;
     margin-left:  2.5rem;
     margin-right: 4.5rem;
