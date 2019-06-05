@@ -149,12 +149,13 @@ h1 {
 }
  
 .connect { /* стили текста в <li> */
-    width: 30rem;
+    width: 100%;
     font-size: 2rem;
     margin-left:  2.5rem;
-    margin-right: auto;
+    margin-right: 4.5rem;
     margin-top: 3.5rem;
     margin-bottom: 7rem;
+    line-height: 1.2;
 }
  
 .item01 {/* идивидуальные стили тега <li>*/
