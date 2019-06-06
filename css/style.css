@@ -349,11 +349,14 @@ footer {
   }
 
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-    width:  24rem;
+    width: 45%;  
+    max-width:  24rem;
+    margin-top: 2rem;
   }
-
+  
   .button{ /*меняем положение кнопок*/
     display: flex;
+      flex-wrap: nowrap; 
   }
 
   .app_store_btn{
