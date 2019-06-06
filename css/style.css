@@ -221,19 +221,15 @@ h1 {
   	margin:  0px;
   	width: 80%;
 }
-
-.wrap { /*контейнер для квадрата*/
- 	margin-top: -7.25rem;
-  	margin-left: 2.5rem;
-}
-
  
-.wrapper { /*сиреневый квадрат */
-    position: relative;
-    width: 8.75rem;
-    height: 8.75rem;
-    background-color: #5e42b0;
-    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+.wrap { /*сиреневый квадрат */
+    	position: relative;
+    	width: 8.75rem;
+   	height: 8.75rem;
+   	background-color: #5e42b0;
+    	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+	margin-top: -7.25rem;
+  	margin-left: 2.5rem;
 }
  
  /*-----------footer-------------*/
