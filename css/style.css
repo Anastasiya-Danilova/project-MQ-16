@@ -131,7 +131,7 @@ h1 {
     margin-right: auto;
 }
  
-.item01, .item02, .item03 { /* стили тега <li> */
+.item-light, .item-gray, .item-dark { /* стили тега <li> */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -169,16 +169,16 @@ h1 {
     line-height: 1.2;
 }
  
-.item01 {/* идивидуальные стили тега <li>*/
+.item-light {/* идивидуальные стили тега <li>*/
     background-color: #fafafa;
     margin-top: -7rem;
 }
  
-.item02 {/* идивидуальные стили тега <li>*/
+.item-gray {/* идивидуальные стили тега <li>*/
     background-color: #f5f4f9;
 }
  
-.item03 {/* идивидуальные стили тега <li>*/
+.item-dark {/* идивидуальные стили тега <li>*/
     background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
     background-color: #5e42b0;
 }
@@ -395,7 +395,7 @@ footer {
     padding-left: 1.8rem;
   }
 
-  .item01 {/* идивидуальные стили тега <li>*/
+  .item-light {/* идивидуальные стили тега <li>*/
     background-color: transparent;
     margin-top: -47rem;
   }
@@ -434,7 +434,7 @@ footer {
     margin-right: 0px;
   }
 
-  .players .item01{
+  .players .item-light{
     margin-top: -35em;
   }
 
@@ -619,7 +619,7 @@ footer {
     margin-left: calc(50% + 2rem);
   }
 
-  .item01 {/* идивидуальные стили тега <li>*/
+  .item-light {/* идивидуальные стили тега <li>*/
     background-color: transparent;
     margin-top: -43rem;
   }
@@ -660,7 +660,7 @@ footer {
     margin-bottom: 0em;
   }
 
-  .players .item01{
+  .players .item-light{
     margin-top: -33em;
   }
 
@@ -878,7 +878,7 @@ footer {
     margin-left: calc(50% + 2rem);
   }
 
-  .item01 {/* идивидуальные стили тега <li>*/
+  .item-light {/* идивидуальные стили тега <li>*/
     background-color: transparent;
     margin-top: -43rem;
   }
@@ -919,7 +919,7 @@ footer {
     margin-bottom: 0em;
   }
 
-  .players .item01{
+  .players .item-light{
     margin-top: -37.5em;
   }
 
@@ -1138,7 +1138,7 @@ footer {
     margin-left: calc(50% + 3.1rem);
   }
 
-  .item01 {/* идивидуальные стили тега <li>*/
+  .item-light {/* идивидуальные стили тега <li>*/
     background-color: transparent;
     margin-top: -43rem;
   }
@@ -1179,7 +1179,7 @@ footer {
     margin-bottom: 0em;
   }
 
-  .players .item01{
+  .players .item-light{
     margin-top: -37.5em;
   }
 
