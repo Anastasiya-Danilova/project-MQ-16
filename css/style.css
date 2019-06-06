@@ -562,28 +562,30 @@ footer {
   }
 
   .subscript { /*стили второй строчки заголовка*/
-    font-size: 5.625rem;
-    margin-bottom: 11rem;
-    align-self: flex-end;
-    text-align: end;
-    margin-left: calc(100% - 63rem);
-    margin-right: auto;
+    	font-size: 5.625rem;
+    	margin-bottom: 11rem;
+    	align-self: flex-end;
+    	text-align: end;
+    	margin-left: calc(100% - 63rem);
+    	margin-right: auto;
   }
 
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-    width:  19.3rem;
+   	width: 25%; 
+   	max-width:  19.3rem;
+   	margin-top: 2rem;
   }
 
   .button{ /*меняем положение кнопок*/
-    display: flex;
+   	flex-wrap: nowrap; 
   }
 
   .app_store_btn {
-    margin-right: 1.6rem;
+    	margin-right: 1.6rem;
   }
 
   .google_btn {
-    margin-left: 1.6rem;
+    	margin-left: 1.6rem;
   }
 
   .appl, .google { /*svg иконок кнопок*/
@@ -827,13 +829,15 @@ footer {
   }
 
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-    width:  19.3rem;
+   width: 25%; 
+   max-width:  19.3rem;
+   margin-top: 2rem; 
   }
-
+  
   .button{ /*меняем положение кнопок*/
-    display: flex;
+   flex-wrap: nowrap; 
   }
-
+	
   .app_store_btn {
     margin-right: 1.6rem;
   }
@@ -1087,11 +1091,13 @@ footer {
   }
 
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-    width:  19.3rem;
+   width: 25%; 
+   max-width:  19.3rem;
+   margin-top: 2rem; 
   }
-
+  
   .button{ /*меняем положение кнопок*/
-    display: flex;
+   flex-wrap: nowrap; 
   }
 
   .app_store_btn {
