@@ -116,7 +116,6 @@ h1 {
  
 .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
     display: block;
-    width: 27rem;
     font-size: 6.25rem;
     text-transform: uppercase;
     color: #ede9e9;
