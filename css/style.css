@@ -237,14 +237,26 @@ h1 {
   	width: 80%;
 }
  
-.wrap { /*сиреневый квадрат */
-    	position: relative;
-    	width: 8.75rem;
-   	height: 8.75rem;
-   	background-color: #5e42b0;
-    	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
-	margin-top: -7.25rem;
-  	margin-left: 2.5rem;
+.wrap { /*сиреневый квадрат*/
+  position: relative;
+  width: 8.75rem;
+  height: 8.75rem;
+  background-color: #5e42b0;
+  background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+  margin-top: -7.25rem;
+  margin-left: 2.5rem;
+}
+
+.work { /* номера разделов */
+  width: 2rem;
+  color: #ffffff;
+  border-color: #8f7bc8;
+  margin: auto;
+  padding-left: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
  
  /*-----------footer-------------*/
