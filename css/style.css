@@ -1183,7 +1183,11 @@ footer {
   .be_active,  .find_contact, .work_it{
     display: flex;
   }
-
+ 
+	.find_contact {
+    flex-direction: row-reverse;
+  }
+	
   .common-work .chess{ /*стили заголовка и текста третьей секции*/
     width: 50%;
   }
