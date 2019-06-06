@@ -196,14 +196,9 @@ h1 {
     background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
     background-color: #5e42b0;
 }
- 
-.trey {/* идивидуальные стили маркера в item03*/
-    border-color: #ffffff;
-}
- 
+  
 .third { /* идивидуальные стили маркера в item03 growth */
     color: #5e42b0;
-    border-color: #ffffff;
 }
  
 .resources { /* идивидуальные стили текста в item03 growth */
@@ -258,7 +253,10 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
- 
+ .common-work .num{ /* номера разделов */
+  width: 2rem;
+  color: #ffffff;
+}
  /*-----------footer-------------*/
 footer {
     background-repeat: no-repeat;
