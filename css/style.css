@@ -41,6 +41,7 @@ header {
 h1 {
     display: block;
     font-size: 3.5rem;
+    text-transform: uppercase;
     color: #ffffff;
 }
  
@@ -48,6 +49,8 @@ h1 {
     display: block;
     color: #ffffff;
     font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
     margin-left: 4.75rem;
     margin-top: 3.75rem;
     margin-bottom: 11rem;
