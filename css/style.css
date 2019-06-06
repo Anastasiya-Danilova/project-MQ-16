@@ -151,10 +151,25 @@ h1 {
     font-size: 1.75rem;
     font-weight: bold;
     color: #000000;
-    border-bottom: 4px solid #5e42b0;
-    border-radius: 2px;
+    line-height: 0.6;
     margin-top: 10.5rem;
     margin-left: 2.5rem;
+}
+
+.num::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line.png?raw=true);
+}
+
+.trey::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
+}
+
+.third::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
+}
+
+.work::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/linn_gw1.png?raw=true);
 }
  
 .connect { /* стили текста в <li> */
@@ -596,7 +611,21 @@ footer {
     margin-left: calc(50% + 2rem);
     margin-right: 0.7rem;
   }
+ .num::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
+}
 
+.trey::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+}
+
+.third::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+}
+
+.work::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
+}
   .connect { /* стили текста в <li> */
     font-size: 1.2rem;
     width: 46rem;
@@ -855,7 +884,21 @@ footer {
     margin-left: calc(50% + 2rem);
     margin-right: 0.7rem;
   }
+ .num::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
+}
 
+.trey::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+}
+
+.third::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+}
+
+.work::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
+}
   .connect { /* стили текста в <li> */
     font-size: 1.2rem;
     width: 46rem;
@@ -1115,7 +1158,21 @@ footer {
     margin-left: calc(50% + 3.1rem);
     margin-right: 0.7rem;
   }
+ .num::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
+}
 
+.trey::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+}
+
+.third::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+}
+
+.work::after {
+  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
+}
   .connect { /* стили текста в <li> */
     font-size: 1.2rem;
     width: 46rem;
