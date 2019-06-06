@@ -345,18 +345,17 @@ footer {
   .subscript { /*стили второй строчки заголовка*/
     font-size: 4.9em;
   }
-
+	
+  .button{ /*меняем положение кнопок*/
+    flex-wrap: nowrap; 
+  }
+	
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
     width: 45%;  
     max-width:  24rem;
     margin-top: 2rem;
   }
   
-  .button{ /*меняем положение кнопок*/
-    display: flex;
-      flex-wrap: nowrap; 
-  }
-
   .app_store_btn{
     margin-right: 1.2rem;
   }
@@ -449,7 +448,6 @@ footer {
     width: 2rem;
     font-size: 1.84em;
     color: #ffffff;
-    border-color: #8f7bc8;
     margin: auto;
     padding-left: 1px;
     position: absolute;
@@ -484,7 +482,6 @@ footer {
   .icon { /* контейнер для иконки лого */
     width: 10rem;
   }
-
 
   .icon-surface { /* svg иконка лого */
     width: 7.8rem;
@@ -553,14 +550,14 @@ footer {
     	margin-right: auto;
   }
 
+  .button{ /*меняем положение кнопок*/
+   	flex-wrap: nowrap; 
+  }
+	
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
    	width: 25%; 
    	max-width:  19.3rem;
    	margin-top: 2rem;
-  }
-
-  .button{ /*меняем положение кнопок*/
-   	flex-wrap: nowrap; 
   }
 
   .app_store_btn {
@@ -675,50 +672,54 @@ footer {
     display: flex;
   }
 
+  .be-active, .work-it{
+   margin-left: -160px;
+  }	
+	
   .common-work .chess{ /*стили заголовка и текста третьей секции*/
     width: 50%;
   }
 
   .find_contact .chess{ /*стили второго подзаголовка и текста третьей секции*/
-    margin-left: -106%;
+    margin-left: 0px;
   }
 
   .wrap { /*контейнер для квадрата*/
-    margin-left:  calc(100% - 5.25rem);
+    margin-left: 0px;
     margin-bottom: 10rem;
   }
 
-  .contact  .wrap{
-    margin-left: -5.25rem;
-  }
-
   .work { /* номера разделов */
-    width: 2rem;
-    font-size: 1.84em;
-    color: #ffffff;
-    border-color: #8f7bc8;
-    margin: auto;
-    padding-left: 1px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    	width: 2rem;
+    	font-size: 1.84em;
+    	color: #ffffff;
+    	margin: auto;
+    	padding-left: 1px;
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
   }
 
+  .contact {
+   	margin-left: auto;
+   	margin-right: 0px;
+  }
+	
   .active { /* заголовок в секции common-work */
-    width: 100%;
+    width: 50%;
     font-size: 4rem;
     margin-top: 16.25rem;
-    margin-left:  7.3rem;
+    margin-left: 0rem;
   }
 
   .common-work .connect { /* стили текста в <li> */
     width: 80%;
     font-size: 1.5rem;
-    margin-left:  7.3rem;
-    margin-right: auto;
+    margin-left:  0rem;
+    margin-right: 0px;
     margin-top: 4.8rem;
-    margin-bottom: 7rem;
+    margin-bottom: 0px;
   }
 
   .bottom{
@@ -768,26 +769,7 @@ footer {
    header {/*фон заголовка*/
     background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/football_1920.jpg?raw=true);
    }
-
-  .be-active {/*фон секции be active  */
-    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/be-active_640.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-  }
-
-  .contact {/*фон секции find contact  */
-    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/find-contact_960.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-    margin-left: 50%
-  }
-
-  .work-it {/*фон секции work it  */
-    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/work-it_960.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-  }
-
+	
   footer {
    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/game_1920.jpg?raw=true);
   }
@@ -953,23 +935,22 @@ footer {
   }
 
   .find_contact .chess{ /*стили второго подзаголовка и текста третьей секции*/
-    margin-left: -100%;
+    margin-left: 0px;
   }
 
   .wrap { /*контейнер для квадрата*/
-    margin-left:  calc(100% - 5.25rem);
+    margin-left:  0px;
     margin-bottom: 10rem;
   }
 
   .contact  .wrap{
-    margin-left: -5.25rem;
+    margin-left: 0px;
   }
 
   .work { /* номера разделов */
     width: 2rem;
     font-size: 1.84em;
     color: #ffffff;
-    border-color: #8f7bc8;
     margin: auto;
     padding-left: 1px;
     position: absolute;
@@ -984,8 +965,7 @@ footer {
     margin-top: 16.25rem;
     margin-left:  7.3rem;
   }
-
-
+	
   .common-work .connect { /* стили текста в <li> */
     width: 90%;
     max-width: 550px;
@@ -1044,25 +1024,6 @@ footer {
     background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/football_1920.jpg?raw=true);
   }
 
-  .be-active {/*фон секции be active  */
-    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/be-active_640.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-  }
-
-  .contact {/*фон секции find contact  */
-    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/find-contact_960.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-    margin-left: 50%
-  }
-
-  .work-it {/*фон секции work it  */
-    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/work-it_960.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-  }
-
   footer {
     background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/game_1920.jpg?raw=true);
   }
@@ -1082,7 +1043,8 @@ footer {
   }
 
   .title { /*контейнер заголовка*/
-    width: 90rem;
+    width: 90%;	  
+    max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1227,22 +1189,21 @@ footer {
   }
 
   .find_contact .chess{ /*стили второго подзаголовка и текста третьей секции*/
-    margin-left: -100%;
+    margin-left: 0px;
   }
 
   .wrap { /*контейнер для квадрата*/
-    margin-left:  calc(100% - 5.25rem);
+    margin-left:  0px;
     margin-bottom: 22.8rem;
   }
   .contact  .wrap{
-    margin-left: -5.25rem;
+    margin-left: 0px;
   }
 
   .work { /* номера разделов */
     width: 2rem;
     font-size: 1.84em;
     color: #ffffff;
-    border-color: #8f7bc8;
     margin: auto;
     padding-left: 1px;
     position: absolute;
@@ -1255,13 +1216,7 @@ footer {
     width: 100%;
     font-size: 5rem;
     margin-top: 16.25rem;
-    margin-left:  7.3rem;
-  }
-
-  .wrapper { /*сиреневый квадрат */
-    position: relative;
-    width: 10.5rem;
-    height: 9.7rem;
+    margin-left:  0px;
   }
 
   .common-work .connect { /* стили текста в <li> */
@@ -1320,25 +1275,6 @@ footer {
 
   header {/*фон заголовка*/
     background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/football_1920.jpg?raw=true);
-  }
-
-  .be-active {/*фон секции be active  */
-    background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/be-active_1024.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-  }
-
-  .contact {/*фон секции find contact  */
-    background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/find-contact_1024.jpg?raw=true);
-    width: 50%;
-    height: 730px;
-    margin-left: 50%
-  }
-
-  .work-it {/*фон секции work it  */
-    background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/work-it_1024.jpg?raw=true);
-    width: 50%;
-    height: 730px;
   }
 
   footer {
