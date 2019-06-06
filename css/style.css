@@ -97,6 +97,7 @@ h1 {
     display: block;
     width: 10rem;
     font-size: 1rem;
+    text-transform: uppercase;
     padding-left: 1rem;
     margin-right: auto;
     margin-top: 5px;
@@ -114,6 +115,7 @@ h1 {
     display: block;
     width: 27rem;
     font-size: 6.25rem;
+    text-transform: uppercase;
     color: #ede9e9;
     box-sizing: border-box;
     margin-left: 2.5rem;
@@ -135,6 +137,7 @@ h1 {
 .service  { /* стили заголовка в <li> */
     width: 21rem;
     font-size: 3rem;
+    text-transform: uppercase;
     color: #cccccc;
     margin-left: 1rem;
     margin-right: auto;
