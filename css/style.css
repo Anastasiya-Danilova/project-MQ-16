@@ -173,8 +173,7 @@ header {
 }
  
 .connect { /* стили текста в <li> */
-    width: 100%;
-    max-width: 35rem;
+    width: 70%;
     font-size: 2rem;
     margin-left:  2.5rem;
     margin-right: 4.5rem;
