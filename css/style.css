@@ -322,7 +322,8 @@ footer {
  
 @media (min-width: 320px) and  (max-width: 640px) {
   html{
-    font-size: 50%;
+    	font-size: 50%;
+	min-width: 320px;  
   }
 
   header {/*фон заголовка*/
