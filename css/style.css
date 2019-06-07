@@ -1181,58 +1181,72 @@ footer {
   }
 
   .be_active,  .find_contact, .work_it{
-    display: flex;
+    	display: flex;
+    	margin-bottom: -0.3rem; 
   }
- 
-	.find_contact {
-    flex-direction: row-reverse;
+  
+  .be-active, .work-it {
+  	margin-left: calc(50vw - 966px);
   }
 	
+  .contact {
+     	margin-right: calc(50vw - 966px);
+  }
+  
+  .find_contact {
+    	flex-direction: row-reverse;
+  }
+  
   .common-work .chess{ /*стили заголовка и текста третьей секции*/
-    width: 50%;
+   	margin-left:  calc(8rem - 70px);
+   	margin-bottom: 0rem;   
   }
-
-  .find_contact .chess{ /*стили второго подзаголовка и текста третьей секции*/
-    margin-left: 0px;
+  
+  .find_contact .chess{ /*стили второго заголовка и текста третьей секции*/
+    	margin-right: 8rem;
   }
-
-  .wrap { /*контейнер для квадрата*/
-    margin-left:  0px;
-    margin-bottom: 22.8rem;
+  
+  .wrap { /* сиреневый квадрат*/
+  	flex: none;
+ 	margin-top: 13.8rem;
+  	margin-left: -70px;
+  	margin-bottom: 0rem;
+  	margin-right: 0px;  
   }
-  .contact  .wrap{
-    margin-left: 0px;
+  
+  .find_contact  .wrap{
+   	margin-right: -70px;
   }
-
+	
   .work { /* номера разделов */
-    width: 2rem;
-    font-size: 1.84em;
-    color: #ffffff;
-    margin: auto;
-    padding-left: 1px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  	width: 2rem;
+  	font-size: 1.84em;
+  	color: #ffffff;
+  	margin: auto;
+  	padding-left: 1px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
   }
-
+  
   .active { /* заголовок в секции common-work */
-    width: 100%;
-    font-size: 5rem;
-    margin-top: 16.25rem;
-    margin-left:  0px;
+  	width: 100%;  
+  	font-size: 5rem;
+  	margin-top: 6rem;
+  	margin-left:  0px;
   }
-
-  .common-work .connect { /* стили текста в <li> */
-    width: 100%;
-    max-width: 644px;
-    font-size: 1.5rem;
-    margin-left:  7.3rem;
-    margin-right: auto;
-    margin-top: 4.8rem;
-    margin-bottom: 7rem;
+ 
+ .common-work .connect { /* стили текста в <li> */
+  	width: 100%;
+  	max-width: 644px; 
+  	font-size: 1.5rem;
+  	margin-left:  0rem;
+	margin-right: auto;
+  	margin-top: 7.25rem;
+  	margin-bottom: 0rem;
   }
-
+	
   .bottom{
     display: flex;
     flex-wrap: wrap;
