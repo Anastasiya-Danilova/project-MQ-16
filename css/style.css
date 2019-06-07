@@ -380,9 +380,13 @@ footer {
   .sportsman {
     margin-left: -12.5rem;
   }
+	
+  .athlets {
+    box-sizing: border-box;
+    padding-top: 6.6rem;
+  }
 
   .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
-    margin-top: 6.6rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1.8rem;
@@ -585,11 +589,15 @@ footer {
     margin-top: -5rem;  
   }
   
+ .athlets {
+    box-sizing: border-box;
+    padding-top: 7.3rem;
+  }	
+ 
  .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
-  font-size: 5rem;
-  margin-top: 7.3rem; 
+  	font-size: 5rem; 
 	margin-right: auto;
-  margin-left: calc(50% + 2rem);
+  	margin-left: calc(50% + 2rem);
 } 
   
  .item-light {/* идивидуальные стили тега <li>*/
@@ -852,10 +860,14 @@ footer {
     	margin-right: calc(50% + 3.1rem);
     	margin-top: -12rem;  
   }
+	
+  .athlets {
+    box-sizing: border-box;
+    padding-top: 7.3rem;
+  }
   
  .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
-  	font-size: 5rem;
-  	margin-top: 7.3rem; 
+  	font-size: 5rem; 
 	margin-right: auto;
   	margin-left: calc(50% + 3.1rem);
   } 
