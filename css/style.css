@@ -604,17 +604,21 @@ footer {
 }
   
  .service  { /* стили заголовка <h3> */
-  font-size: 2.25em;
-  margin-left: 0px;
+  	font-size: 2.25em;
+  	margin-left: 0px;
 	margin-right: auto;
-  margin-top: 3.7rem;
+  	margin-top: 3.7rem;
 } 
+	
+  .athlets li {
+    	padding-left: calc(50% + 2rem);
+  }
   
   .num { /* стили маркеров <li> */
-  width: 1.5rem;
+  	width: 1.5rem;
 	font-size: 1.12em;
-  margin-top: 3.7rem;
-  margin-left: calc(50% + 2rem);
+  	margin-top: 3.7rem;
+  	margin-left: 0px;
 	margin-right: 0.7rem;
 }
   
@@ -635,25 +639,24 @@ footer {
 }
 
   .connect { /* стили текста в <li> */   
-  font-size: 1.2rem;
-  width: 46rem;
-  margin-left: calc(50% + 2rem);
-  margin-right: auto;
-  margin-top: 1.8rem;
-  margin-bottom: 3.5rem;
-  line-height: 1.75rem;
+  	font-size: 1.2rem;
+  	width: 46rem;
+  	margin-left: 0px;
+  	margin-right: auto;
+  	margin-top: 1.8rem;
+  	margin-bottom: 3.5rem;
+  	line-height: 1.75rem;
 }
   
    .sportsman-two {
-  margin-left: auto;
-  margin-right: 0px;
-  margin-top: -5rem;  
+  	margin-left: auto;
+  	margin-right: 0px;
+  	margin-top: -5rem;  
   }
   
   .player { /*заголовки секций ATHLETS и PLAYERS*/
-  margin-left: 6rem;
-  margin-bottom: 0em; 
- 
+  	margin-left: 6rem;
+  	margin-bottom: 0em; 
 } 
  
   .players .item-light{
@@ -881,11 +884,16 @@ footer {
 	margin-right: auto;
   	margin-top: 3.7rem;
   } 
+	
+  .athlets li {
+    padding-left: calc(50% + 3.1rem);
+  }
+	
   .num { /* стили маркеров <li> */
   	width: 1.5rem;
 	font-size: 1.12em;
   	margin-top: 3.7rem;
-  	margin-left: calc(50% + 3.1rem);
+  	margin-left: 0px;
 	margin-right: 0.7rem;
   }
   
@@ -908,7 +916,7 @@ footer {
   .connect { /* стили текста в <li> */   
   	font-size: 1.2rem;
   	width: 46rem;
-  	margin-left: calc(50% + 3.1rem);
+  	margin-left: 0px;
   	margin-right: auto;
   	margin-top: 1.8rem;
   	margin-bottom: 3.5rem;
