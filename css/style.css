@@ -437,14 +437,10 @@ footer {
     margin-top: -35em;
   }
 
-  .players .num{ /* стили маркеров <li> */
-    margin-left: 3rem;
-  }
-
-  .players .connect{ /* стили маркеров <li> */
-    margin-right: 22.5rem;
-    margin-left: 3rem;
-  }
+  .players li {
+    padding-left: 3rem;
+    paddin-right: 22.5rem;
+  } 
 
   .work { /* номера разделов */
     width: 2rem;
