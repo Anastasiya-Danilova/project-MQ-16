@@ -33,7 +33,7 @@ header {
    display: flex;
    flex-wrap: wrap;
    width: 80%;
-   max-width: 1530px;
+   max-width: 1520px;
    font-size: 3.5rem; 
  	 color: #ffffff;
    text-transform: uppercase;
@@ -800,7 +800,7 @@ footer {
    	display: flex;
    	flex-wrap: wrap;
    	width: 80%;
-   	max-width: 1530px;
+   	max-width: 1520px;
    	font-size: 5rem; 
  	color: #ffffff;
    	text-transform: uppercase;
