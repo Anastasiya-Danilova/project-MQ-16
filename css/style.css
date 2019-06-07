@@ -29,32 +29,28 @@ header {
     padding-bottom: 10.5rem;
 }
  
-.title { /*контейнер заголовка*/
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-}
- 
-h1 {
-    display: block;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    color: #ffffff;
-}
- 
-.subscript { /*стили второй строчки заголовка*/
-    display: block;
-    color: #ffffff;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-left: 4.75rem;
-    margin-top: 3.75rem;
-    margin-bottom: 11rem;
-}
+.title {
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   max-width: 1530px;
+   font-size: 3.5rem; 
+ 	 color: #ffffff;
+   text-transform: uppercase;
+   margin-left: auto; 
+   margin-right: auto;
+   margin-bottom: 11.8rem;
+ }
+
+ .subscript { /*стили второй строчки заголовка*/
+   display: block;
+   font-size: 3.5rem; 
+ 	 color: #ffffff;
+   margin-left: auto;
+   margin-right: 0px;
+   margin-top: 3.75rem;
+   }
+
  
 .surface { /*svg логотипа*/
      fill: #ffffff;
@@ -800,24 +796,25 @@ footer {
 	height: 3.25rem;
   }
   
-  .title { /*контейнер заголовка*/
-  	width: 90%;	  
-  	max-width: 90rem;
-  	margin-left: auto; 
-  	margin-right: auto;
+  .title {
+   	display: flex;
+   	flex-wrap: wrap;
+   	width: 80%;
+   	max-width: 1530px;
+   	font-size: 5rem; 
+ 	color: #ffffff;
+   	text-transform: uppercase;
+   	margin-left: auto; 
+   	margin-right: auto;
+   	margin-bottom: 11.8rem;
   }
-  h1 {
-   	display: block;
-   	font-size: 5.625rem; 
-   }
 
   .subscript { /*стили второй строчки заголовка*/
-   	font-size: 5.625rem;
-   	margin-bottom: 11rem;
-   	align-self: flex-end;
-   	text-align: end;
-   	margin-left: calc(100% - 63rem); 
-   	margin-right: auto;
+   	display: block;
+   	font-size: 5rem; 
+ 	 color: #ffffff;
+   	margin-left: auto;
+   	margin-right: 0px;
    }
 
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
