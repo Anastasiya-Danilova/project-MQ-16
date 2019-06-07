@@ -33,7 +33,7 @@ header {
    display: flex;
    flex-wrap: wrap;
    width: 80%;
-   max-width: 1520px;
+   max-width: 1500px;
    font-size: 3.5rem; 
  	 color: #ffffff;
    text-transform: uppercase;
@@ -337,11 +337,8 @@ footer {
   }
 
   .title { /*контейнер заголовка*/
-  width: 40em;
-  }
-
-  h1 {
-    font-size: 4.9em;
+  	width: 40em;
+	font-size: 4.9em;
   }
 
   .subscript { /*стили второй строчки заголовка*/
@@ -528,23 +525,26 @@ footer {
 	  height: 3.25rem;
    }
   
-  .title { /*контейнер заголовка*/
-  width: 90%;
-  margin-left: auto; 
-  margin-right: auto;
-}
- h1 {
-   display: block;
-   font-size: 5.625rem; 
- }
+  .title {
+   	display: flex;
+   	flex-wrap: wrap;
+   	width: 80%;
+   	max-width: 1500px;
+   	font-size: 5rem; 
+ 	color: #ffffff;
+   	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+   	margin-left: auto; 
+   	margin-right: auto;
+   	margin-bottom: 11.8rem;
+  }
 
- .subscript { /*стили второй строчки заголовка*/
-   font-size: 5.625rem;
-   margin-bottom: 11rem;
-   align-self: flex-end;
-   text-align: end;
-   margin-left: calc(100% - 63rem); 
-   margin-right: auto;
+  .subscript { /*стили второй строчки заголовка*/
+   	display: block;
+   	font-size: 5rem; 
+ 	 color: #ffffff;
+   	margin-left: auto;
+   	margin-right: 0px;
    }
   
   .button{ /*меняем положение кнопок*/
@@ -800,7 +800,7 @@ footer {
    	display: flex;
    	flex-wrap: wrap;
    	width: 80%;
-   	max-width: 1520px;
+   	max-width: 1500px;
    	font-size: 5rem; 
  	color: #ffffff;
    	text-transform: uppercase;
