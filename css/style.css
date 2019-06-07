@@ -357,8 +357,7 @@ footer {
   }
 	
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-    width: 45%;  
-    max-width:  24rem;
+    width:24rem;
     margin-top: 2rem;
   }
   
@@ -558,8 +557,7 @@ footer {
   }
   
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-   width: 25%; 
-   max-width:  19.3rem;
+   width: 22rem;
    margin-top: 2rem; 
   }
   
@@ -825,8 +823,7 @@ footer {
    }
 
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-   	width: 25%; 
-   	max-width:  19.3rem;
+   	width:19.3rem;
    	margin-top: 2rem; 
   }
   
