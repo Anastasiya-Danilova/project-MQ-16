@@ -211,6 +211,7 @@ header {
  /*-------------секция сommon-work-----------------*/
  
 .be-active, .contact, .work-it { /* фон разделов common-work */
+	display: block;
 	background-color: #bcdbf7;
  } 
 
@@ -664,8 +665,7 @@ footer {
 }
   
  .be_active,  .find_contact, .work_it{
-    display: flex;
-    margin-bottom: -0.3rem; 
+    display: flex; 
   }
   
   .be-active, .work-it {
@@ -931,8 +931,7 @@ footer {
   }
   
   .be_active,  .find_contact, .work_it{
-    	display: flex;
-    	margin-bottom: -0.3rem; 
+    	display: flex; 
   }
   
   .be-active, .work-it {
