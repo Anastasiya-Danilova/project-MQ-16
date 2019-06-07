@@ -378,12 +378,10 @@ footer {
   }
 
   .sportsman {
-	position: absolute;
     	margin-left: -12.5rem;
   }
 	
   .athlets, .players {
-	 position: relative;
     	 box-sizing: border-box;
    	 padding-top: 6.6rem;
   }
@@ -424,19 +422,11 @@ footer {
   }
 
   .sportsman-two {
-	position: absolute; 
     	margin-left: calc(100% - 436px);
     	margin-right: 0px;
     	margin-top: -3em;
   }
 
-   .players .connect { /* стили текста в <li> */
-  	max-width: 35rem; 
-   }
-  
-  .players .resources { /* идивидуальные стили текста в item03 growth */
-  	max-width: 45rem; 
-   }	
 	
   .player { /*заголовки секций ATHLETS и PLAYERS*/
     margin-left: 2.5rem;
