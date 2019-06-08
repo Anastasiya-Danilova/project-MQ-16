@@ -3,209 +3,210 @@
 }
  
 * {
-     margin: 0;
-     padding: 0;
+     	margin: 0;
+     	padding: 0;
 }
  
 html {
-    font-family: 'Open Sans', sans-serif;
-    min-width: 320px;
-    margin: 0;
-    padding: 0;
+    	font-family: 'Open Sans', sans-serif;
+    	min-width: 320px;
+    	margin: 0;
+    	padding: 0;
 }
+
  /*---------header-----------------*/
 header {
-    display: block;
-    box-sizing: border-box;
-    background-color: #090c35;
-    background-repeat: no-repeat;
-    background-size: cover;
+    	display: block;
+    	box-sizing: border-box;
+    	background-color: #090c35;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 }
  
 .header{ /*наложение цвета*/
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 51, 0.8);
-    padding-top: 4rem;
-    padding-bottom: 10.5rem;
+    	box-sizing: border-box;
+    	background-color: rgba(0, 0, 51, 0.8);
+    	padding-top: 4rem;
+    	padding-bottom: 10.5rem;
 }
  
 .title {
-   display: flex;
-   flex-wrap: wrap;
-   width: 80%;
-   max-width: 1500px;
-   font-size: 3.5rem; 
-   color: #ffffff;
-   text-transform: uppercase;
-   margin-left: auto; 
-   margin-right: auto;
-   margin-bottom: 11.8rem;
+   	display: flex;
+   	flex-wrap: wrap;
+   	width: 80%;
+   	max-width: 1500px;
+   	font-size: 3.5rem; 
+   	color: #ffffff;
+   	text-transform: uppercase;
+   	margin-left: auto; 
+   	margin-right: auto;
+   	margin-bottom: 11.8rem;
  }
 
- .subscript { /*стили второй строчки заголовка*/
-   font-size: 3.5rem; 
-   color: #ffffff;
-   margin-left: auto;
-   margin-right: 0px;
-   margin-top: 3.75rem;
-   }
+.subscript { /*стили второй строчки заголовка*/
+   	font-size: 3.5rem; 
+   	color: #ffffff;
+   	margin-left: auto;
+   	margin-right: 0px;
+   	margin-top: 3.75rem;
+}
 
  
 .surface { /*svg логотипа*/
-     fill: #ffffff;
-    width: 16rem;
-    height: 4.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+     	fill: #ffffff;
+    	width: 16rem;
+    	height: 4.5rem;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
 }
  
 .logo {
-    margin-bottom: 17rem;
+    	margin-bottom: 17rem;
 }
  
 .button {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin-left: auto;
-      margin-right: auto;
+    	display: flex;
+    	flex-wrap: wrap;
+    	width: 80%;
+   	margin-left: auto;
+      	margin-right: auto;
   }
   
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-     display: flex;
-     flex-wrap: wrap;
-     width: 35rem;
+     	display: flex;
+     	flex-wrap: wrap;
+     	width: 35rem;
         color: #ffffff;
-     text-decoration: none;
-     background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
-     background-color: #5e42b0;
-     border-radius: 3rem;
-     box-shadow: 16px 16px 16px #0a0e34; 
-     margin-left: auto;
-       margin-right: auto;
-     justify-content: center;
-     align-items: center;
+     	text-decoration: none;
+     	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+     	background-color: #5e42b0;
+     	border-radius: 3rem;
+     	box-shadow: 16px 16px 16px #0a0e34; 
+     	margin-left: auto;
+        margin-right: auto;
+     	justify-content: center;
+     	align-items: center;
   }
   
   .google_btn  {
-     margin-top: 2rem;
+     	margin-top: 2rem;
   }
   
   .appl, .google { /*svg иконок кнопок*/
-    fill: #ffffff;
-    width: 2.5rem;
-    height: 3rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    f	ill: #ffffff;
+    	width: 2.5rem;
+    	height: 3rem;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
   }
   
   .app_store, .google_play { /*текст кнопок*/
-    display: block;
-    width: 10rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    padding-left: 1rem;
+    	display: block;
+    	width: 10rem;
+    	font-size: 1rem;
+    	text-transform: uppercase;
+    	padding-left: 1rem;
   }
   
   .app, .play { /*вторая строчка кнопки*/
-    display: block;
-    font-weight: bold;
+    	display: block;
+    	font-weight: bold;
   }
  /* -----------------секция athlete  секция players ---------------------*/
  
 .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
-    display: block;
-    font-size: 6.25rem;
-    text-transform: uppercase;
-    color: #ede9e9;
-    box-sizing: border-box;
-    margin-left: 2.5rem;
-    margin-right: 10.5rem;
+    	display: block;
+    	font-size: 6.25rem;
+    	text-transform: uppercase;
+    	color: #ede9e9;
+    	box-sizing: border-box;
+    	margin-left: 2.5rem;
+    	margin-right: 10.5rem;
 }
  
 .sportsman, .sportsman-two { /* декор. img в секциях ATHLETS и PLAYERS */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
 }
  
 .item-light, .item-gray, .item-dark { /* стили тега <li> */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    	display: flex;
+    	flex-wrap: wrap;
+    	align-items: center;
 }
  
 .service  { /* стили заголовка в <li> */
-    width: 21rem;
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: #cccccc;
-    margin-left: 1rem;
-    margin-right: auto;
-    margin-top: 10.5rem;
+    	width: 21rem;
+    	font-size: 3rem;
+    	text-transform: uppercase;
+    	color: #cccccc;
+    	margin-left: 1rem;
+    	margin-right: auto;
+    	margin-top: 10.5rem;
 }
  
 .num { /* стили маркеров <li> */
-    width: 2rem;
-    font-size: 1.75rem;
-    font-weight: bold;
-    color: #000000;
-    line-height: 0.6;
-    margin-top: 10.5rem;
-    margin-left: 2.5rem;
+    	width: 2rem;
+    	font-size: 1.75rem;
+    	font-weight: bold;
+    	color: #000000;
+    	line-height: 0.6;
+    	margin-top: 10.5rem;
+    	margin-left: 2.5rem;
 }
 
 .num::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line.png?raw=true);
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line.png?raw=true);
 }
 
 .trey::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
 }
 
 .third::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
 }
 
 .work::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/linn_gw1.png?raw=true);
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/linn_gw1.png?raw=true);
 }
  
 .connect { /* стили текста в <li> */
-    width: 70%;
-    font-size: 2rem;
-    margin-left:  2.5rem;
-    margin-right: 4.5rem;
-    margin-top: 3.5rem;
-    margin-bottom: 7rem;
-    line-height: 1.2;
+    	width: 70%;
+    	font-size: 2rem;
+    	margin-left:  2.5rem;
+    	margin-right: 4.5rem;
+    	margin-top: 3.5rem;
+    	margin-bottom: 7rem;
+    	line-height: 1.2;
 }
  
 .item-light {/* идивидуальные стили тега <li>*/
-    background-color: #fafafa;
-    margin-top: -7rem;
+    	background-color: #fafafa;
+    	margin-top: -7rem;
 }
  
 .item-gray {/* идивидуальные стили тега <li>*/
-    background-color: #f5f4f9;
+    	background-color: #f5f4f9;
 }
  
 .item-dark {/* идивидуальные стили тега <li>*/
-    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
-    background-color: #5e42b0;
+    	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+    	background-color: #5e42b0;
 }
   
 .third { /* идивидуальные стили маркера в item03 growth */
-    color: #5e42b0;
+    	color: #5e42b0;
 }
  
 .resources { /* идивидуальные стили текста в item03 growth */
-    color: #ffffff;
+    	color: #ffffff;
 }
  
 .growth { /* идивидуальный стиль <li> item03 growth */
-    background: #090c35;
+    	background: #090c35;
 }
  
  /*-------------секция сommon-work-----------------*/
@@ -222,7 +223,7 @@ header {
 }
 
 .chess .connect {
-	 margin-left: 0px;
+	margin-left: 0px;
  	margin-bottom: 0px; 
 }
 
@@ -233,86 +234,89 @@ header {
 }
  
 .wrap { /*сиреневый квадрат*/
-  position: relative;
-  width: 8.75rem;
-  height: 8.75rem;
-  background-color: #5e42b0;
-  background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
-  margin-top: -7.25rem;
-  margin-left: 2.5rem;
+ 	 position: relative;
+  	width: 8.75rem;
+  	height: 8.75rem;
+  	background-color: #5e42b0;
+  	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+  	margin-top: -7.25rem;
+  	margin-left: 2.5rem;
 }
 
 .work { /* номера разделов */
-  width: 2rem;
-  color: #ffffff;
-  border-color: #8f7bc8;
-  margin: auto;
-  padding-left: 1px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  	width: 2rem;
+  	color: #ffffff;
+  	border-color: #8f7bc8;
+  	margin: auto;
+  	padding-left: 1px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
- .common-work .num{ /* номера разделов */
-  width: 2rem;
-  color: #ffffff;
+
+.common-work .num{ /* номера разделов */
+    	width: 2rem;
+    	color: #ffffff;
 }
+
  /*-----------footer-------------*/
+
 footer {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #090c35;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-color: #090c35;
 }
  
 .footer { /*наложение цвета*/
-    background-color: rgba(0, 0, 51, 0.8);
-    padding-top: 12.5rem;
-    padding-bottom: 1.25rem;
-    box-sizing: border-box;
+    	background-color: rgba(0, 0, 51, 0.8);
+    	padding-top: 12.5rem;
+    	padding-bottom: 1.25rem;
+    	box-sizing: border-box;
 }
  
 .icon { /* контейнер для иконки лого */
-    width: 9rem;
-    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
-    background-color: #5e42b0;
-    border-radius: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    	width: 9rem;
+    	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+    	background-color: #5e42b0;
+    	border-radius: 20%;
+    	margin-left: auto;
+    	margin-right: auto;
 }
  
 .icon-surface { /* svg иконка лого */
-    width: 7rem;
-    height: 6.5rem;
-    fill: #ffffff;
-    margin: 1.25rem 1rem;
+    	width: 7rem;
+    	height: 6.5rem;
+    	fill: #ffffff;
+    	margin: 1.25rem 1rem;
 }
  
 .download { /*заголовок футера*/
-    display: block;
-    width: 35.6rem;
-    font-size: 4rem;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7.5rem;
+    	display: block;
+    	width: 35.6rem;
+    	font-size: 4rem;
+    	text-transform: uppercase;
+    	text-align: center;
+    	color: #ffffff;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 7.5rem;
 }
  
 .motive {/* дополнение к заголовку футера*/
-    display: block;
-    width: 35.6rem;
-    font-size: 1.75rem;
-    text-transform: uppercase;
-    text-align: center;
-    color: #9999cc;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 9.5rem;
+    	display: block;
+    	width: 35.6rem;
+    	font-size: 1.75rem;
+    	text-transform: uppercase;
+    	text-align: center;
+    	color: #9999cc;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-bottom: 9.5rem;
 }
  
 .logo_fut {
-    margin-top: 5.5rem;
+    	margin-top: 5.5rem;
 }
  
 @media (min-width: 240px) and  (max-width: 640px) {
@@ -322,67 +326,67 @@ footer {
   }
 
   header {/*фон заголовка*/
-    background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/football_767.jpg?raw=true); 
+    	background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/football_767.jpg?raw=true); 
   }
 
   footer {
-  background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/game_767.jpg?raw=true);
+  	background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/game_767.jpg?raw=true);
   }
 }
 
 @media (min-width: 641px) and  (max-width: 960px){
-  html{
-    font-size: 81.5%;
-  }
+   html{
+    	font-size: 81.5%;
+   }
 
-  .title { /*контейнер заголовка*/
+   .title { /*контейнер заголовка*/
 	font-size: 4.9rem;
-  }
+   }
 
-  .subscript { /*стили второй строчки заголовка*/
-    font-size: 4.9rem;
-  }
+   .subscript { /*стили второй строчки заголовка*/
+    	font-size: 4.9rem;
+   }
 	
-  .button{ /*меняем положение кнопок*/
-    flex-wrap: nowrap; 
-  }
+   .button{ /*меняем положение кнопок*/
+    	flex-wrap: nowrap; 
+   }
 	
-  .app_store_btn, .google_btn { /*ссылка-кнопка*/
-    width:24rem;
-    margin-top: 2rem;
-  }
+   .app_store_btn, .google_btn { /*ссылка-кнопка*/
+    	width:24rem;
+    	margin-top: 2rem;
+   }
   
-  .app_store_btn{
-    margin-right: 1.2rem;
-  }
+   .app_store_btn{
+    	margin-right: 1.2rem;
+   }
 
-  .google_btn {
-    margin-left: 1.2rem;
-  }
+   .google_btn {
+    	margin-left: 1.2rem;
+   }
 
-  .appl, .google { /*svg иконок кнопок*/
-    fill: #ffffff;
-    width: 2.7em;
-    height: 3rem;
-    margin-left: auto;
-    align-self: center;
-  }
+   .appl, .google { /*svg иконок кнопок*/
+    	fill: #ffffff;
+    	width: 2.7em;
+    	height: 3rem;
+    	margin-left: auto;
+    	align-self: center;
+   }
 
-  .app_store, .google_play { /*текст кнопок*/
-    padding-left: 1rem;
-    box-sizing: border-box;
-    align-self: center;
-    margin-right: auto;
-    margin-top: 0.9rem;
-    margin-bottom: 0.9rem;
-  }
+   .app_store, .google_play { /*текст кнопок*/
+    	padding-left: 1rem;
+    	box-sizing: border-box;
+    	align-self: center;
+    	margin-right: auto;
+    	margin-top: 0.9rem;
+    	margin-bottom: 0.9rem;
+   }
 
    /* -----------------секция athlete  секция players ---------------------*/
 
    .sportsman {
     	position: absolute;
     	margin-left: -12.5rem;
-   	 margin-top: -5rem;
+   	margin-top: -5rem;
    }
 	
    .athlets, .players {
@@ -447,88 +451,89 @@ footer {
    } 
 	
   .work { /* номера разделов */
-    width: 2rem;
-    font-size: 1.84em;
-    color: #ffffff;
-    margin: auto;
-    padding-left: 1px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+    	width: 2rem;
+    	font-size: 1.84em;
+    	color: #ffffff;
+    	margin: auto;
+    	padding-left: 1px;
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
+   }
 	
 /* -----------------секция  work it  ---------------------*/
 
- .chess {
-  margin-left: 2.5rem;
-  margin-top: 4rem;
-  margin-bottom: 10rem; 
-}
+  .chess {
+  	margin-left: 2.5rem;
+  	margin-top: 4rem;
+  	margin-bottom: 10rem; 
+  }
 
-.chess .connect {
- max-width: 80%;
- font-size: 1.8rem;
- margin-left: 0px;
- margin-bottom: 0px; 
-}
+  .chess .connect {
+ 	max-width: 80%;
+ 	font-size: 1.8rem;
+ 	margin-left: 0px;
+ 	margin-bottom: 0px; 
+  }
 
-.active { /* заголовок в секции common-work */
-  font-size: 6.1rem;
-  margin:  0px;
-  width: 80%;
-}
+  .active { /* заголовок в секции common-work */
+  	font-size: 6.1rem;
+  	margin:  0px;
+  	width: 80%;
+  }
 
   .footer { /*наложение цвета*/
-    padding-top: 9.6rem;
+    	padding-top: 9.6rem;
   }
 
   .icon { /* контейнер для иконки лого */
-    width: 10rem;
+    	width: 10rem;
   }
 
   .icon-surface { /* svg иконка лого */
-    width: 7.8rem;
-    height: 6.7rem;
-    fill: #ffffff;
-    margin: 1.6rem 1rem;
+    	width: 7.8rem;
+    	height: 6.7rem;
+    	fill: #ffffff;
+    	margin: 1.6rem 1rem;
   }
 
   .download { /*заголовок футера*/
-    width: 100%;
-    font-size: 6em;
-    margin-top: 6.2rem;
-    text-align: center;
+    	width: 100%;
+    	font-size: 6em;
+    	margin-top: 6.2rem;
+    	text-align: center;
   }
 
   .motive {/* дополнение к заголовку футера*/
-    width: 100%;
-    font-size: 2.76rem;
-    margin-bottom: 22rem;
-    text-align: center;
+    	width: 100%;
+    	font-size: 2.76rem;
+    	margin-bottom: 22rem;
+    	text-align: center;
   }
 
   .logo_fut {
-    margin-top: 1rem;
+    	margin-top: 1rem;
   }
 
   header {/*фон заголовка*/
-    background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/football_1280.jpg?raw=true);
+    	background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/football_1280.jpg?raw=true);
   }
 
   footer {
-    background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/game_1280.jpg?raw=true);
+    	background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/game_1280.jpg?raw=true);
   }
 }
 
 @media (min-width: 961px) and (max-width: 1310px) {
   html{
       font-size: 85%;
-    }
+  }
+	
   .surface { /*svg логотипа*/
-    fill: #ffffff;
-    width: 12rem;
-	  height: 3.25rem;
+    	fill: #ffffff;
+    	width: 12rem;
+	height: 3.25rem;
    }
   
   .title {
@@ -543,7 +548,7 @@ footer {
    	margin-left: auto; 
    	margin-right: auto;
    	margin-bottom: 11.8rem;
-  }
+   }
 
   .subscript { /*стили второй строчки заголовка*/
    	font-size: 5rem; 
@@ -552,58 +557,59 @@ footer {
    	margin-right: 0px;
    }
   
-  .button{ /*меняем положение кнопок*/
-   flex-wrap: nowrap; 
-  }
+   .button{ /*меняем положение кнопок*/
+   	flex-wrap: nowrap; 
+   }
   
-  .app_store_btn, .google_btn { /*ссылка-кнопка*/
-   width: 22rem;
-   margin-top: 2rem; 
-  }
+   .app_store_btn, .google_btn { /*ссылка-кнопка*/
+   	width: 22rem;
+   	margin-top: 2rem; 
+   }
   
-  .app_store_btn {
-   margin-right: 1.6rem; 
-  }
-  .google_btn {
-   margin-left: 1.6rem; 
-  }
+   .app_store_btn {
+   	margin-right: 1.6rem; 
+   }
+	
+   .google_btn {
+   	margin-left: 1.6rem; 
+   }
   
-  .appl, .google { /*svg иконок кнопок*/
-  fill: #ffffff;
-  width: 2.7em;
-  height: 3rem;
-  margin-left: auto;
-  align-self: center;  
-}
+   .appl, .google { /*svg иконок кнопок*/
+  	fill: #ffffff;
+  	width: 2.7em;
+  	height: 3rem;
+  	margin-left: auto;
+  	align-self: center;  
+   }
   
   .app_store, .google_play { /*текст кнопок*/
-  font-size: 0.87rem;  
-  padding-left: 1rem;
-  box-sizing: border-box;
-  align-self: center;
-  margin-right: auto;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
+  	font-size: 0.87rem;  
+  	padding-left: 1rem;
+  	box-sizing: border-box;
+  	align-self: center;
+  	margin-right: auto;
+  	margin-top: 1.5rem;
+  	margin-bottom: 1.5rem;
+  }
 
 /* -----------------секция athlete  секция players ---------------------*/
   
-  .sportsman {
-    position: absolute;
-    margin-left: auto;
-    margin-right: calc(50% + 2rem);
-    margin-top: -5rem;  
-  }
+   .sportsman {
+    	position: absolute;
+    	margin-left: auto;
+    	margin-right: calc(50% + 2rem);
+    	margin-top: -5rem;  
+   }
   
- .athlets, .players {
-    position: relative;
-    box-sizing: border-box;
-    padding-top: 7.37rem;
-  }	
+  .athlets, .players {
+    	position: relative;
+    	box-sizing: border-box;
+    	padding-top: 7.37rem;
+   }	
  
   .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
   	font-size: 5rem; 
-	 margin-right: auto;
+	margin-right: auto;
   	margin-left: calc(50% + 2rem);
   } 
   
@@ -701,7 +707,7 @@ footer {
   
   .common-work .chess{ /*стили заголовка и текста третьей секции*/
    	margin-left:  calc(8rem - 70px);
-  	 margin-bottom: 0rem;   
+  	margin-bottom: 0rem;   
   }
   
   .find_contact .chess{ /*стили второго заголовка и текста третьей секции*/
@@ -867,19 +873,22 @@ footer {
   	margin-bottom: 1.5rem;
   }
   
+/* -----------------секция athlete  секция players ---------------------*/
    
   .sportsman {
-    	margin-left: auto;
-    	margin-right: calc(50% + 3.1rem);
-    	margin-top: -12rem;  
+      	position: absolute;
+    	margin-left: 7rem;
+    	margin-right: calccalc(50% - 38rem);
+    	margin-top: -10rem;  
   }
 	
   .athlets, .players {
-    box-sizing: border-box;
-    padding-top: 7.3rem;
+    	position: relative;
+    	box-sizing: border-box;
+    	padding-top: 7.37rem;
   }
   
- .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
+  .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
   	font-size: 5rem; 
 	margin-right: auto;
   	margin-left: calc(50% + 3.1rem);
@@ -887,7 +896,7 @@ footer {
   
  .item-light {/* идивидуальные стили тега <li>*/
   	background-color: transparent;
-  	margin-top: -43rem; 
+  	margin-top: 0rem; 
   }
   
  .service  { /* стили заголовка <h3> */
@@ -898,7 +907,7 @@ footer {
   } 
 	
   .athlets li {
-    padding-left: calc(50% + 3.1rem);
+    	padding-left: calc(50% + 3.1rem);
   }
 	
   .num { /* стили маркеров <li> */
@@ -908,6 +917,38 @@ footer {
   	margin-left: 0px;
 	margin-right: 0.7rem;
   }
+  
+  .connect { /* стили текста в <li> */   
+  	font-size: 1.2rem;
+  	max-width: 46rem;
+  	margin-left: 0px;
+  	margin-right: auto;
+  	margin-top: 1.8rem;
+  	margin-bottom: 3.5rem;
+  	line-height: 1.75rem;
+  }
+  
+  .sportsman-two {
+    	position: absolute;
+  	margin-left: calc(70% - 38rem);
+  	margin-right: 7rem;
+  	margin-top: -12rem;  
+  }
+  
+  .player { /*заголовки секций ATHLETS и PLAYERS*/
+ 	margin-left: 11.5rem;
+  	margin-bottom: 0em; 
+   } 
+ 
+   .players .num{ /* стили маркеров <li> */
+  	margin-left: 11.5rem;
+   }  
+  
+   .players .connect{ /* стили маркеров <li> */
+  	margin-right: 50%;
+  	margin-left: 11.5rem;
+  	width: 46rem;
+   }
   
   .num::after {
   	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
@@ -924,42 +965,9 @@ footer {
   .work::after {
   	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
   }
-
-  .connect { /* стили текста в <li> */   
-  	font-size: 1.2rem;
-  	width: 46rem;
-  	margin-left: 0px;
-  	margin-right: auto;
-  	margin-top: 1.8rem;
-  	margin-bottom: 3.5rem;
-  	line-height: 1.75rem;
-  }
   
-  .sportsman-two {
-  	margin-left: calc(50% - 3.1rem);
-  	margin-right: 0px;
-  	margin-top: -12rem;  
-  }
-  
-  .player { /*заголовки секций ATHLETS и PLAYERS*/
- 	margin-left: 11.5rem;
-  	margin-bottom: 0em; 
-  } 
- 
-  .players .item-light{
-    	margin-top: -37.5em;
-  }
-
-  .players .num{ /* стили маркеров <li> */
-  	margin-left: 11.5rem;
-  }  
-  
-  .players .connect{ /* стили маркеров <li> */
-  	margin-right: 50%;
-  	margin-left: 11.5rem;
-  	width: 46rem;
-  }
-  
+  /* -----------------секция  work it  ---------------------*/
+	
   .be_active,  .find_contact, .work_it{
     	display: flex; 
   }
