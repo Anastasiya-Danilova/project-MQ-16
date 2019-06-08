@@ -585,35 +585,39 @@ footer {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-     
+
+/* -----------------секция athlete  секция players ---------------------*/
+  
   .sportsman {
+    position: absolute;
     margin-left: auto;
     margin-right: calc(50% + 2rem);
     margin-top: -5rem;  
   }
   
  .athlets, .players {
+    position: relative;
     box-sizing: border-box;
-    padding-top: 7.3rem;
+    padding-top: 7.37rem;
   }	
  
- .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
+  .athlete, .player { /*заголовки секций ATHLETS и PLAYERS*/
   	font-size: 5rem; 
-	margin-right: auto;
+	 margin-right: auto;
   	margin-left: calc(50% + 2rem);
-} 
+  } 
   
- .item-light {/* идивидуальные стили тега <li>*/
-  background-color: transparent;
-  margin-top: -43rem; 
-}
+  .item-light {/* идивидуальные стили тега <li>*/
+   	background-color: transparent;
+   	margin-top: 6.75rem;
+  }
   
- .service  { /* стили заголовка <h3> */
+  .service  { /* стили заголовка <h3> */
   	font-size: 2.25em;
   	margin-left: 0px;
 	margin-right: auto;
   	margin-top: 3.7rem;
-} 
+  } 
 	
   .athlets li {
     	padding-left: calc(50% + 2rem);
@@ -625,24 +629,8 @@ footer {
   	margin-top: 3.7rem;
   	margin-left: 0px;
 	margin-right: 0.7rem;
-}
+  }
   
-  .num::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
-}
-
-.trey::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
-}
-
-.third::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
-}
-
-.work::after {
-  content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
-}
-
   .connect { /* стили текста в <li> */   
   	font-size: 1.2rem;
   	width: 46rem;
@@ -651,148 +639,167 @@ footer {
   	margin-top: 1.8rem;
   	margin-bottom: 3.5rem;
   	line-height: 1.75rem;
-}
+  }
   
    .sportsman-two {
-  	margin-left: auto;
-  	margin-right: 0px;
-  	margin-top: -5rem;  
-  }
+    	position: absolute;
+  	margin-left: calc(100% - 38rem);
+  	margin-right: 7rem;
+  	margin-top: -10rem;  
+   }
   
   .player { /*заголовки секций ATHLETS и PLAYERS*/
   	margin-left: 6rem;
   	margin-bottom: 0em; 
-} 
+  } 
  
-  .players .item-light{
-    margin-top: -33em;
-  }
+  
 
   .players .num{ /* стили маркеров <li> */
-  margin-left: 6rem;
-}  
+  	margin-left: 6rem;
+  }  
   
   .players .connect{ /* стили маркеров <li> */
-  margin-right: 50%;
-  margin-left: 6rem;
-  width: 46rem;
-}
+  	margin-right: 50%;
+  	margin-left: 6rem;
+  	width: 46rem;
+  }
+  
+  .num::after {
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
+  }
+
+  .trey::after {
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+  }
+
+  .third::after {
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
+  }
+
+  .work::after {
+  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
+  }
+  
+  /* -----------------секция  work it  ---------------------*/
   
  .be_active,  .find_contact, .work_it{
-    display: flex; 
+    	display: flex; 
   }
   
   .be-active, .work-it {
-  margin-left: calc(50vw - 774px);
-}
+ 	 margin-left: calc(50vw - 774px);
+  }
+	
   .contact {
-     margin-right: calc(50vw - 774px);
+     	margin-right: calc(50vw - 774px);
   }
   
   .find_contact {
-    flex-direction: row-reverse;
+    	flex-direction: row-reverse;
   }
   
   .common-work .chess{ /*стили заголовка и текста третьей секции*/
-   margin-left:  calc(8rem - 70px);
-   margin-bottom: 0rem;   
+   	margin-left:  calc(8rem - 70px);
+  	 margin-bottom: 0rem;   
   }
   
   .find_contact .chess{ /*стили второго заголовка и текста третьей секции*/
-    margin-right: 8rem;
+    	margin-right: 8rem;
   }
   
   .wrap { /* сиреневый квадрат*/
-  flex: none;
-  margin-top: 13.8rem;
-  margin-left: -70px;
-  margin-bottom: 0rem;
-  margin-right: 0px;  
-}
+  	flex: none;
+  	margin-top: 13.8rem;
+  	margin-left: -70px;
+  	margin-bottom: 0rem;
+  	margin-right: 0px;  
+  }
   
   .find_contact  .wrap{
-   margin-right: -70px;
+   	margin-right: -70px;
   }
+	
   .work { /* номера разделов */
-  width: 2rem;
-  font-size: 1.84em;
-  color: #ffffff;
-  margin: auto;
-  padding-left: 1px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  	width: 2rem;
+  	font-size: 1.84em;
+  	color: #ffffff;
+  	margin: auto;
+  	padding-left: 1px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
   
   .active { /* заголовок в секции common-work */
-  width: 100%;  
-  font-size: 5rem;
-  margin-top: 6rem;
-  margin-left:  0px;
-}
+  	width: 100%;  
+  	font-size: 5rem;
+  	margin-top: 6rem;
+  	margin-left:  0px;
+  }
  
- .common-work .connect { /* стили текста в <li> */
-  width: 100%;
-  max-width: 644px; 
-  font-size: 1.5rem;
-  margin-left:  0rem;
+  .common-work .connect { /* стили текста в <li> */
+  	width: 100%;
+ 	max-width: 644px; 
+  	font-size: 1.5rem;
+  	margin-left:  0rem;
 	margin-right: auto;
-  margin-top: 7.25rem;
-  margin-bottom: 0rem;
-}
+  	margin-top: 7.25rem;
+  	margin-bottom: 0rem;
+   }
   
   .bottom{
-    display: flex;
-    flex-wrap: wrap;
-    width: 54.1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 9.4rem;
+    	display: flex;
+    	flex-wrap: wrap;
+    	width: 54.1rem;
+   	margin-left: auto;
+    	margin-right: auto;
+   	margin-bottom: 9.4rem;
   }
   
   .icon { /* контейнер для иконки лого */
-  width: 8.1rem;
-  margin-left: 0px;
-  margin-right: 2.37rem;
-}
+  	width: 8.1rem;
+  	margin-left: 0px;
+  	margin-right: 2.37rem;
+  }
 
-.icon-surface { /* svg иконка лого */
-  width: 6.4rem;
-  height: 5.7rem;
-}
+  .icon-surface { /* svg иконка лого */
+  	width: 6.4rem;
+  	height: 5.7rem;
+  }
 
-.download { /*заголовок футера*/
-  width: 100%;
-  font-size: 5rem;
-  margin-left: 0px;
-  margin-right: auto;
-  margin-top: 0px;
-}
+  .download { /*заголовок футера*/
+  	width: 100%;
+  	font-size: 5rem;
+  	margin-left: 0px;
+  	margin-right: auto;
+  	margin-top: 0px;
+  }
 
-.motive {/* дополнение к заголовку футера*/
-  font-size: 1.9rem;
-  margin-left: 0px;
-  margin-right: auto;
-  margin-bottom: 0px;
-}
+  .motive {/* дополнение к заголовку футера*/
+  	font-size: 1.9rem;
+  	margin-left: 0px;
+   	margin-right: auto;
+  	margin-bottom: 0px;
+  }
   
   .footer { /*наложение цвета*/
-  padding-top: 14.3rem;
-  padding-bottom: 3.25rem;
-}
+  	padding-top: 14.3rem;
+  	padding-bottom: 3.25rem;
+  }
 
-.logo_fut {
-  margin-top: 16.4rem;
-}
+  .logo_fut {
+   	margin-top: 16.4rem;
+  }
   
-   header {/*фон заголовка*/
-    background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/football_1920.jpg?raw=true);
-   }
+  header {/*фон заголовка*/
+    	background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/football_1920.jpg?raw=true);
+  }
   
   footer { 
-   background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/game_1920.jpg?raw=true);
-    }
+   	background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/game_1920.jpg?raw=true);
+  }
 }
 
 @media (min-width: 1311px) and  (max-width: 1920px){
