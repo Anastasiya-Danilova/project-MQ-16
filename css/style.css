@@ -445,8 +445,6 @@ footer {
     	padding-left: 3rem;
     	paddin-right: 22.5rem;
    } 
-
-  /* -----------------секция  work it  ---------------------*/
 	
   .work { /* номера разделов */
     width: 2rem;
@@ -459,6 +457,8 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+	
+/* -----------------секция  work it  ---------------------*/
 
  .chess {
   margin-left: 2.5rem;
