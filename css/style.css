@@ -224,6 +224,7 @@ header {
 
 .active { /* заголовок в секции common-work */
   	font-size: 3.5rem;
+	color: #e6e6e6;
   	margin:  0px;
   	width: 80%;
 }
