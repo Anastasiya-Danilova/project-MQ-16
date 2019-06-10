@@ -344,6 +344,10 @@ footer::before {/*наложение цвета*/
   .google_btn  {
      	margin-top: 2rem;
   }
+	
+  .be-active, .contact, .work-it {
+    	height: 110vw;
+  }
 
   header {/*фон заголовка*/
     	background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/football_767.jpg?raw=true); 
