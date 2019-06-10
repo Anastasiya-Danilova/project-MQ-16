@@ -88,10 +88,6 @@ header {
      align-items: center;
   }
   
-  .google_btn  {
-     margin-top: 2rem;
-  }
-  
   .appl, .google { /*svg иконок кнопок*/
     fill: #ffffff;
     width: 2.5rem;
@@ -323,6 +319,10 @@ footer {
     	font-size: 50%;
 	min-width: 320px;  
   }
+	
+  .google_btn  {
+     	margin-top: 2rem;
+  }
 
   header {/*фон заголовка*/
     	background-image: url(https://github.com/Stasya-Plotnikova/diploma/blob/master/img/football_767.jpg?raw=true); 
@@ -352,7 +352,6 @@ footer {
 	
    .app_store_btn, .google_btn { /*ссылка-кнопка*/
     	width:24rem;
-    	margin-top: 2rem;
    }
   
    .app_store_btn{
@@ -562,7 +561,6 @@ footer {
   
    .app_store_btn, .google_btn { /*ссылка-кнопка*/
    	width: 22rem;
-   	margin-top: 2rem; 
    }
   
    .app_store_btn {
@@ -840,8 +838,7 @@ footer {
    }
 
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-   	width:19.3rem;
-   	margin-top: 2rem; 
+   	width:19.3rem; 
   }
   
   .button{ /*меняем положение кнопок*/
