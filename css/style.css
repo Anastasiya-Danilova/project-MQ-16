@@ -8,110 +8,109 @@
 }
  
 html {
-    	font-family: 'Open Sans', sans-serif;
-    	min-width: 320px;
-    	margin: 0;
-    	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
 }
-
  /*---------header-----------------*/
 header {
-    	display: block;
-    	box-sizing: border-box;
-    	background-color: #090c35;
-    	background-repeat: no-repeat;
-    	background-size: cover;
+    display: block;
+    box-sizing: border-box;
+    background-color: #090c35;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
  
 .header{ /*наложение цвета*/
-    	box-sizing: border-box;
-    	background-color: rgba(0, 0, 51, 0.8);
-    	padding-top: 4rem;
-    	padding-bottom: 10.5rem;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 51, 0.8);
+    padding-top: 4rem;
+    padding-bottom: 10.5rem;
 }
  
 .title {
-   	display: flex;
-   	flex-wrap: wrap;
-   	width: 80%;
-   	max-width: 1500px;
-   	font-size: 3.5rem; 
-   	color: #ffffff;
-   	text-transform: uppercase;
-   	margin-left: auto; 
-   	margin-right: auto;
-   	margin-bottom: 11.8rem;
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   max-width: 1500px;
+   font-size: 3.5rem; 
+   color: #ffffff;
+   text-transform: uppercase;
+   margin-left: auto; 
+   margin-right: auto;
+   margin-bottom: 11.8rem;
  }
 
-.subscript { /*стили второй строчки заголовка*/
-   	font-size: 3.5rem; 
-   	color: #ffffff;
-   	margin-left: auto;
-   	margin-right: 0px;
-   	margin-top: 3.75rem;
-}
+ .subscript { /*стили второй строчки заголовка*/
+   font-size: 3.5rem; 
+   color: #ffffff;
+   margin-left: auto;
+   margin-right: 0px;
+   margin-top: 3.75rem;
+   }
 
  
 .surface { /*svg логотипа*/
-     	fill: #ffffff;
-    	width: 16rem;
-    	height: 4.5rem;
-    	display: block;
-    	margin-left: auto;
-    	margin-right: auto;
+     fill: #ffffff;
+    width: 16rem;
+    height: 4.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
  
 .logo {
-    	margin-bottom: 17rem;
+    margin-bottom: 17rem;
 }
  
 .button {
-    	display: flex;
-    	flex-wrap: wrap;
-    	width: 80%;
-   	margin-left: auto;
-      	margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+      margin-right: auto;
   }
   
   .app_store_btn, .google_btn { /*ссылка-кнопка*/
-     	display: flex;
-     	flex-wrap: wrap;
-     	width: 35rem;
-        color: #ffffff;
-     	text-decoration: none;
-     	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
-     	background-color: #5e42b0;
-     	border-radius: 3rem;
-     	box-shadow: 16px 16px 16px #0a0e34; 
-     	margin-left: auto;
-        margin-right: auto;
-     	justify-content: center;
-     	align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     width: 35rem;
+     color: #ffffff;
+     text-decoration: none;
+     background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+     background-color: #5e42b0;
+     border-radius: 3rem;
+     box-shadow: 16px 16px 16px #0a0e34; 
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+     align-items: center;
   }
   
   .google_btn  {
-     	margin-top: 2rem;
+     margin-top: 2rem;
   }
   
   .appl, .google { /*svg иконок кнопок*/
-    f	ill: #ffffff;
-    	width: 2.5rem;
-    	height: 3rem;
-    	margin-top: 5px;
-    	margin-bottom: 5px;
+    fill: #ffffff;
+    width: 2.5rem;
+    height: 3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   .app_store, .google_play { /*текст кнопок*/
-    	display: block;
-    	width: 10rem;
-    	font-size: 1rem;
-    	text-transform: uppercase;
-    	padding-left: 1rem;
+    display: block;
+    width: 10rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
   }
   
   .app, .play { /*вторая строчка кнопки*/
-    	display: block;
-    	font-weight: bold;
+    display: block;
+    font-weight: bold;
   }
  /* -----------------секция athlete  секция players ---------------------*/
  
