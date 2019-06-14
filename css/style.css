@@ -159,7 +159,7 @@ header::before {
 }
 
 .num::after {
-  	content: "";
+    content: "";
     display: block;
     width: 2rem;
     height: 4px;
@@ -463,8 +463,8 @@ footer::before {/*наложение цвета*/
    }
 	
    .num::after {
-    width: 2.8rem;
-    height: 4px;
+      width: 2.8rem;
+      height: 4px;
   }	
 
    .connect { /* стили текста в <li> */
