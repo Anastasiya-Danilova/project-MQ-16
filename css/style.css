@@ -463,9 +463,10 @@ footer::before {/*наложение цвета*/
    }
 	
    .num::after {
-      width: 2.2rem;
-      height: 4px;
-  }	
+    	width: 1.5rem;
+    	height: 4px;
+    	margin-top: 6px;
+  }
 
    .connect { /* стили текста в <li> */
     	font-size: 1.2rem;
@@ -671,9 +672,15 @@ footer::before {/*наложение цвета*/
   
   .num { /* стили маркеров <li> */
   	width: 1.5rem;
-	font-size: 1.12em;
+	font-size: 1.12rem;
   	margin-left: 0px;
 	margin-right: 0.7rem;
+  }
+	
+  .num::after {
+    	width: 1.4rem;
+    	height: 5px;
+    	margin-top: 6px;
   }
   
   .connect { /* стили текста в <li> */   
@@ -938,9 +945,15 @@ footer::before {/*наложение цвета*/
 	
   .num { /* стили маркеров <li> */
   	width: 1.5rem;
-	font-size: 1.12em;;
+	font-size: 1.12rem;;
   	margin-left: 0px;
 	margin-right: 0.7rem;
+  }
+	
+   .num::after {
+    	width: 1.3rem;
+    	height: 5px;
+    	margin-top: 7px;
   }
   
   .connect { /* стили текста в <li> */   
