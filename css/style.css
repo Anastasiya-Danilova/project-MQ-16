@@ -156,7 +156,6 @@ header::before {
     	font-weight: bold;
     	color: #000000;
     	line-height: 0.6;
-    	margin-left: 2.5rem;
 }
 
 .num::after {
