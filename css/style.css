@@ -961,7 +961,7 @@ footer::before {/*наложение цвета*/
    .num::after {
     	width: 1.3rem;
     	height: 5px;
-    	margin-top: 7px;
+    	margin-top: 8px;
   }
 	
    .work::after {
