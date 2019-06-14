@@ -341,6 +341,10 @@ footer::before {/*наложение цвета*/
      	margin-top: 2rem;
   }
 	
+   .athlets, .players {
+    padding-top: 3rem;
+  }	
+	
   .be-active, .contact, .work-it {
     	height: 110vw;
   }
