@@ -466,7 +466,11 @@ footer::before {/*наложение цвета*/
     	width: 1.5rem;
     	height: 4px;
     	margin-top: 6px;
-  }
+   }
+	
+   .work::after {
+  	width: 2rem;
+   }
 
    .connect { /* стили текста в <li> */
     	font-size: 1.2rem;
@@ -681,6 +685,10 @@ footer::before {/*наложение цвета*/
     	width: 1.4rem;
     	height: 5px;
     	margin-top: 6px;
+  }
+	
+  .work::after {
+  	width: 2rem;
   }
   
   .connect { /* стили текста в <li> */   
@@ -954,6 +962,10 @@ footer::before {/*наложение цвета*/
     	width: 1.3rem;
     	height: 5px;
     	margin-top: 7px;
+  }
+	
+   .work::after {
+  	width: 2rem;
   }
   
   .connect { /* стили текста в <li> */   
