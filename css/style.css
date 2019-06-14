@@ -112,7 +112,6 @@ header::before {
   }
   
   .app, .play { /*вторая строчка кнопки*/
-    display: block;
     font-weight: bold;
   }
  /* -----------------секция athlete  секция players ---------------------*/
