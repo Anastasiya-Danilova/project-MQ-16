@@ -461,6 +461,11 @@ footer::before {/*наложение цвета*/
     	width: 1.5rem;
     	font-size: 1.4rem;
    }
+	
+   .num::after {
+    width: 2.8rem;
+    height: 4px;
+  }	
 
    .connect { /* стили текста в <li> */
     	font-size: 1.2rem;
