@@ -136,6 +136,9 @@ header::before {
     	display: flex;
     	flex-wrap: wrap;
     	align-items: center;
+	padding-left: 2.5rem;
+    	padding-top: 10.5rem;
+	padding-bottom: 7rem;
 }
  
 .service  { /* стили заголовка в <li> */
@@ -145,7 +148,6 @@ header::before {
     	color: #c1c1c1;
     	margin-left: 1rem;
     	margin-right: auto;
-    	margin-top: 10.5rem;
 }
  
 .num { /* стили маркеров <li> */
@@ -154,7 +156,6 @@ header::before {
     	font-weight: bold;
     	color: #000000;
     	line-height: 0.6;
-    	margin-top: 10.5rem;
     	margin-left: 2.5rem;
 }
 
@@ -177,10 +178,8 @@ header::before {
 .connect { /* стили текста в <li> */
     	width: 70%;
     	font-size: 2rem;
-    	margin-left:  2.5rem;
     	margin-right: 4.5rem;
     	margin-top: 3.5rem;
-    	margin-bottom: 7rem;
     	line-height: 1.2;
 }
  
@@ -441,23 +440,22 @@ footer::before {/*наложение цвета*/
     	font-size: 2.5em;
     	margin-left: 1rem;
     	margin-right: auto;
-    	margin-top: 3rem;
    }
   
    .athlets li {
-   	padding-left: 22.5rem; 
+   	padding-left: 22.5rem;
+	padding-top: 3rem;
+   	padding-bottom: 2rem;   
    }
 	
    .num { /* стили маркеров <li> */
     	width: 1.5rem;
     	font-size: 1.4rem;
-    	margin-top: 3rem;
    }
 
    .connect { /* стили текста в <li> */
     	font-size: 1.2rem;
     	margin-top: 2rem;
-    	margin-bottom: 2rem;
     	line-height: 2.15rem;
    }
 
@@ -471,6 +469,8 @@ footer::before {/*наложение цвета*/
    .players li {
     	padding-left: 3rem;
     	paddin-right: 22.5rem;
+	padding-top: 3rem;
+    	padding-bottom: 2rem;
    } 
 	
   .work { /* номера разделов */
@@ -644,17 +644,17 @@ footer::before {/*наложение цвета*/
   	font-size: 2.25em;
   	margin-left: 0px;
 	margin-right: auto;
-  	margin-top: 3.7rem;
   } 
 	
   .athlets li {
     	padding-left: calc(50% + 2rem);
+	padding-top: 3.7rem;
+	padding-bottom: 3.5rem;  
   }
   
   .num { /* стили маркеров <li> */
   	width: 1.5rem;
 	font-size: 1.12em;
-  	margin-top: 3.7rem;
   	margin-left: 0px;
 	margin-right: 0.7rem;
   }
@@ -665,7 +665,6 @@ footer::before {/*наложение цвета*/
   	margin-left: 0px;
   	margin-right: auto;
   	margin-top: 1.8rem;
-  	margin-bottom: 3.5rem;
   	line-height: 1.75rem;
   }
   
@@ -924,17 +923,17 @@ footer::before {/*наложение цвета*/
   	font-size: 2.25em;
   	margin-left: 0px;
 	margin-right: auto;
-  	margin-top: 3.7rem;
   } 
 	
   .athlets li {
     	padding-left: calc(50% + 3.1rem);
+	padding-top: 3.7rem;
+	padding-bottom: 3.5rem;  
   }
 	
   .num { /* стили маркеров <li> */
   	width: 1.5rem;
-	font-size: 1.12em;
-  	margin-top: 3.7rem;
+	font-size: 1.12em;;
   	margin-left: 0px;
 	margin-right: 0.7rem;
   }
@@ -945,7 +944,6 @@ footer::before {/*наложение цвета*/
   	margin-left: 0px;
   	margin-right: auto;
   	margin-top: 1.8rem;
-  	margin-bottom: 3.5rem;
   	line-height: 1.75rem;
   }
   
