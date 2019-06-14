@@ -68,10 +68,7 @@ header::before {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
- 
-.logo {
-    margin-bottom: 17rem;
+    margin-bottom: 17rem;	
 }
  
 .button {
