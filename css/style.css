@@ -159,19 +159,25 @@ header::before {
 }
 
 .num::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line.png?raw=true);
+  	content: "";
+    display: block;
+    width: 2rem;
+    height: 4px;
+    border-radius: 2px; 
+    background-color: #5e42b0;
+    margin-top: 4px;
 }
 
 .trey::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
+  	background-color: #fff;
 }
 
 .third::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line2.png?raw=true);
+  	background-color: #fff;
 }
 
 .work::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/linn_gw1.png?raw=true);
+  	background-color: #8f7bc8;
 }
  
 .connect { /* стили текста в <li> */
@@ -698,22 +704,6 @@ footer::before {/*наложение цвета*/
   	width: 46rem;
   }
   
-  .num::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
-  }
-
-  .trey::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
-  }
-
-  .third::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
-  }
-
-  .work::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
-  }
-  
   /* -----------------секция  work it  ---------------------*/
   
  .be_active,  .find_contact, .work_it{
@@ -978,22 +968,6 @@ footer::before {/*наложение цвета*/
   	margin-left: 11.5rem;
   	width: 46rem;
    }
-  
-  .num::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds.png?raw=true);
-  }
-
-  .trey::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
-  }
-
-  .third::after {
-    	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line_ds1.png?raw=true);
-  }
-
-  .work::after {
-  	content: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/line-1ds.png?raw=true);
-  }
   
   /* -----------------секция  work it  ---------------------*/
 	
