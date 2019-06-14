@@ -300,6 +300,12 @@ footer::before {/*наложение цвета*/
     	fill: #ffffff;
     	margin: 1.25rem 1rem;
 }
+
+.text {
+     box-sizing: border-box;
+     padding-top: 7.5rem;
+     padding-bottom: 9.5rem;
+}
  
 .download { /*заголовок футера*/
     	display: block;
@@ -310,7 +316,6 @@ footer::before {/*наложение цвета*/
     	color: #ffffff;
     	margin-left: auto;
     	margin-right: auto;
-    	margin-top: 7.5rem;
 }
  
 .motive {/* дополнение к заголовку футера*/
@@ -322,7 +327,6 @@ footer::before {/*наложение цвета*/
     	color: #9999cc;
     	margin-left: auto;
     	margin-right: auto;
-    	margin-bottom: 9.5rem;
 }
  
 .logo_fut {
@@ -519,18 +523,21 @@ footer::before {/*наложение цвета*/
     	fill: #ffffff;
     	margin: 1.6rem 1rem;
   }
+	
+  .text {
+     padding-top: 6.2rem;
+     padding-bottom: 22rem;
+  }	
 
   .download { /*заголовок футера*/
     	width: 100%;
     	font-size: 6em;
-    	margin-top: 6.2rem;
     	text-align: center;
   }
 
   .motive {/* дополнение к заголовку футера*/
     	width: 100%;
     	font-size: 2.76rem;
-    	margin-bottom: 22rem;
     	text-align: center;
   }
 
@@ -788,26 +795,30 @@ footer::before {/*наложение цвета*/
   	width: 8.1rem;
   	margin-left: 0px;
   	margin-right: 2.37rem;
+	align-self: center;
   }
 
   .icon-surface { /* svg иконка лого */
   	width: 6.4rem;
   	height: 5.7rem;
   }
+	
+   .text {
+     padding-top: 0rem;
+     padding-bottom: 0rem;
+  }	 	
 
   .download { /*заголовок футера*/
   	width: 100%;
   	font-size: 5rem;
   	margin-left: 0px;
   	margin-right: auto;
-  	margin-top: 0px;
   }
 
   .motive {/* дополнение к заголовку футера*/
   	font-size: 1.9rem;
   	margin-left: 0px;
    	margin-right: auto;
-  	margin-bottom: 0px;
   }
   
   .footer { /*наложение цвета*/
@@ -1062,6 +1073,7 @@ footer::before {/*наложение цвета*/
   	width: 8.1rem;
   	margin-left: 0px;
   	margin-right: 2.37rem;
+	align-self: center;   
    }
 
    .icon-surface { /* svg иконка лого */
@@ -1069,22 +1081,25 @@ footer::before {/*наложение цвета*/
   	height: 5.7rem;
    }
 
+   .text {
+     padding-top: 0rem;
+     padding-bottom: 0rem;
+  }		
+	
   .download { /*заголовок футера*/
  	width: 100%;
   	font-size: 5rem;
   	margin-left: 0px;
-  	margin-right: auto;
-  	margin-top: 0px;
+  	margin-right: auto;;
    }
 
   .motive {/* дополнение к заголовку футера*/
   	font-size: 1.9rem;
   	margin-left: 0px;
   	margin-right: auto;
-  	margin-bottom: 0px;
   }
   
-  .footer { /*наложение цвета*/
+  .footer { 
   	padding-top: 14.3rem;
   	padding-bottom: 3.25rem;
   }
