@@ -61,7 +61,7 @@ header::before {
    }
 
  
-.surface { /*svg логотипа*/
+.logo { /*svg логотипа*/
      fill: #ffffff;
     width: 16rem;
     height: 4.5rem;
@@ -331,8 +331,9 @@ footer::before {/*наложение цвета*/
     	margin-right: auto;
 }
  
-.logo_fut {
-    	margin-top: 5.5rem;
+.fut {
+      margin-top: 10rem;
+      margin-bottom: 0rem;
 }
  
 @media (min-width: 240px) and  (max-width: 640px) {
@@ -553,8 +554,8 @@ footer::before {/*наложение цвета*/
     	text-align: center;
   }
 
-  .logo_fut {
-    	margin-top: 1rem;
+  .fut {
+    	margin-top: 3.8rem;
   }
 
   header {/*фон заголовка*/
@@ -571,8 +572,7 @@ footer::before {/*наложение цвета*/
       font-size: 85%;
   }
 	
-  .surface { /*svg логотипа*/
-    	fill: #ffffff;
+  .logo { /*svg логотипа*/
     	width: 12rem;
 	height: 3.25rem;
    }
@@ -832,7 +832,7 @@ footer::before {/*наложение цвета*/
   	padding-bottom: 3.25rem;
   }
 
-  .logo_fut {
+  .fut {
    	margin-top: 16.4rem;
   }
   
@@ -850,8 +850,7 @@ footer::before {/*наложение цвета*/
       	font-size: 100%;
    }
   
-  .surface { /*svg логотипа*/
-    	fill: #ffffff;
+  .logo { /*svg логотипа*/
     	width: 12rem;
 	height: 3.25rem;
   }
@@ -1104,7 +1103,7 @@ footer::before {/*наложение цвета*/
   	padding-bottom: 3.25rem;
   }
 
-  .logo_fut {
+  .fut {
   	margin-top: 16.4rem;
   }
   
